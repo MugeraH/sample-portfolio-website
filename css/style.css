@@ -183,6 +183,71 @@ section {
   margin-bottom: 2em;
 }
 
+.hire {
+  font-size: 22px;
+}
+
+.hire p {
+  font-weight: 500;
+}
+
+.hire span {
+  color: #6700ee;
+  font-weight: 500;
+}
+
+.footer {
+  background: #6700ee;
+  width: 100%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px auto;
+  padding: 0px 30px 0px 30px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer div .logo {
+  color: #00f7ff;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.footer div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer div ul li a {
+  margin: 8px;
+  color: white;
+}
+
 @media only screen and (min-width: 800px) {
   .featured,
   .portfolio {
@@ -290,6 +355,12 @@ section {
     margin-top: 15%;
     width: 100%;
   }
+  .hero .footer div {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
   .portfolio img {
     float: right;
     max-width: 500px;
@@ -312,6 +383,22 @@ section {
   .hero .content {
     padding: 6em 8em 6em 10em;
   }
+  .footer div {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer div .logo {
+    margin: 0;
+    margin-right: 10px;
+  }
 }
 
 @media only screen and (min-width: 1550px) {
@@ -329,6 +416,9 @@ section {
   }
   .hero .content {
     padding: 9em 20em 6em 20em;
+  }
+  .hire {
+    font-size: 28px;
   }
 }
 /*# sourceMappingURL=style.css.map */
